@@ -1,0 +1,21 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass src/scss/main.scss public/css/style.css -w",
+    "devserver:firefox": "live-server --open=/public --browser=firefox",
+    "devserver:chrome": "live-server --open=/public --browser=chrome",
+    "start": "npm-run-all --parallel devserver:firefox devserver:chrome watch:sass",
+    "compile:sass": "node-sass src/scss/main.scss public/css/style.comp.css",
+    "compress:css": "node-sass public/css/style.comp.css public/css/style.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
