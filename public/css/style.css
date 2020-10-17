@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.6rem; }
+
+.price {
+  display: grid; }
+
+.cta {
+  background-color: #2ab2af; }
+
+.why-us {
+  background-color: #4ABFBD; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
