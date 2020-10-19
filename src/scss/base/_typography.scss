@@ -1,4 +1,51 @@
 body {
   font-family: 'Karla', sans-serif;
   font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.02rem;
+  color: $color-neutral-dark;
+}
+
+.heading {
+  font-weight: 700;
+
+  &--1 {
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.15;
+    letter-spacing: -0.025rem;
+    color: $color-cyan;
+
+    @include bp-large {
+      font-size: 2.4rem;
+      line-height: 1.16666667;
+      letter-spacing: -0.03rem;
+    }
+  }
+
+  &--2 {
+    margin-bottom: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 1.33;
+    letter-spacing: -0.01875rem;
+    color: $color-yellow;
+
+    @include bp-large {
+      margin-bottom: 1.1rem;
+      font-size: 1.8rem;
+      line-height: 1.16888889;
+      letter-spacing: -0.022rem;
+    }
+  }
+
+  &--3 {
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+    line-height: 1.16666667;
+
+    @include bp-large {
+      line-height: 1.16888889;
+    }
+  }
 }
